@@ -1,12 +1,14 @@
 ## Привет! Меня зовут Александр👋
 <p align="left">
-  <strong>Python Developer • Dlango • Django REST Framework • PostgreSQL • Redis • Selery • Docker • CI/CD</strong>
+  <strong>Python Developer • Django • Django REST Framework • PostgreSQL • Redis • Celery • Docker • CI/CD</strong>
 </p>
 <p align="left">
-  <a href="https://t.me/alexancore" target="_blank"><img src="https://shields.io" target="_blank"></a>
-  <a href="mailto:kokoralexander@yandex.ru"><img src="https://shields.io" target="_blank"></a>
+  📱 <strong>Telegram:</strong> <a href="https://t.me" target="_blank">@alexancore</a> 
+  &nbsp;&nbsp;•&nbsp;&nbsp; 
+  📧 <strong>Email:</strong> <a href="mailto:kokoralexander@yandex.ru">kokoralexander@yandex.ru</a>
 </p>
-## 🧑‍💻 Обо мне
+
+## 🧑‍💻 **Обо мне**
 Я инженер-разработчик на Python c 10+ лет бэкграундом в финансах и аудите (Deloitte, Ростех), и в разработке финансовых моделей. С 2023 года перешел на проектную деятельность. Специализируюсь на создании масштабируемых веб-приложений на Django, занимаюсь проектированием и разработкой производительной серверной логики, созданием масштабируемых REST API, автоматизацией процессов и настройкой инфраструктуры.
 
 &nbsp;
