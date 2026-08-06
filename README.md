@@ -55,25 +55,25 @@
 * **Стек технологий:** Python, Django, DRF, PostgreSQL, React, Nginx, Docker, GitHub Actions, Coverage.
 * **Что сделано:** Разработал клиент-серверную архитектуру на связке *React* и *DRF* с откликом интерфейса в *150–300 мс*. Внедрил Server-side Pagination в *PostgreSQL*, снизив сетевой трафик на 99%. Настроил *Nginx* в качестве reverse-proxy, контейнеризировал проект через *Docker Compose* и развернул автоматический CI/CD в *Yandex Cloud*.
 
-### ✉️ [Mailing Manager Project](https://github.com)
+### ✉️ [Mailing Manager Project](https://github.com/AlexanderKokorinV/Mailing_Manager_Project)
 **Автоматизированный веб-сервис для создания, администрирования и аналитики маркетинговых рассылок с многоуровневым кэшированием данных.**
 
 * **Стек технологий:** Python, Django, PostgreSQL, Redis, Celery, Celery Beat, Pytest, Bootstrap 5.
 * **Что сделано:** Настроил планирование рассылок через *Celery + Celery Beat*. Разработал пакетную (*Batch*) оптимизацию записи логов в *PostgreSQL*, снизив дисковую нагрузку. Внедрил защиту от спам-петель на уровне воркеров. Развернул двухуровневое кэширование данных (*Redis* + HTTP-заголовки `Cache-Control`) и спроектировал трехуровневую ролевую модель доступа (RBAC).
 
-### 🗓️ [Habits Tracker Project](https://github.com)
+### 🗓️ [Habits Tracker Project](https://github.com/AlexanderKokorinV/Habits_Tracker_Project)
 **Отказоустойчивая бэкенд-часть (Web API) для SPA-приложения по трекингу полезных привычек с автоматической системой асинхронных напоминаний в Telegram.**
 
 * **Стек технологий:** Python, Django REST Framework (DRF), PostgreSQL, Redis, Celery, Celery Beat, JWT, Swagger, Pytest/Coverage, Docker, Docker Compose, CI/CD.
 * **Что сделано:** Реализовал RESTful API с кастомными валидаторами на уровне *Django Serializers* для контроля сложной бизнес-логики. Настроил безопасную аутентификацию по *JWT*. Интегрировал связку *Celery + Redis* для асинхронной отправки уведомлений в Telegram API по расписанию *Celery Beat*. Подключил *Swagger (drf-yasg)* и покрыл код тестами на 87%.
 
-### 📊 [Vacancies Tracker (ETL)](https://github.com)
+### 📊 [Vacancies Tracker (ETL)](https://github.com/AlexanderKokorinV/Vacancies_Tracker_Project)
 **Автоматизированный инструмент для мониторинга рынка труда и анализа вакансий крупнейших работодателей в реальном времени.**
 
 * **Стек технологий:** Python, PostgreSQL, hh.ru API, `psycopg2`.
 * **Что сделано:** Разработал ETL-пайплайн для сбора данных через официальное API hh.ru. Спроектировал реляционную схему данных (*One-to-Many*) в *PostgreSQL*. Написал класс `DBManager` со сложными аналитическими SQL-запросами (расчет средних зарплат, фильтрация по навыкам). Архитектура построена строго по принципам *SOLID (SRP, OCP)*.
 
-### 🏦 [Bank Accounts Analyzer](https://github.com)
+### 🏦 [Bank Accounts Analyzer](https://github.com/AlexanderKokorinV/Project_Bank_Accounts)
 **Инструмент для автоматического анализа банковских выписок, расчета финансовой аналитики и мониторинга рыночных данных.**
 
 * **Стек технологий:** Python, Pandas, APILayer (REST API), Pytest, `unittest.mock`.
